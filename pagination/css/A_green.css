@@ -1,0 +1,29 @@
+	ul.pagination li.details{
+	   color:#3697E8;
+
+	}
+
+    ul.pagination li a
+	{
+		border: 1px solid #3697E8;
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		padding:6px 9px 6px 9px;
+	}
+
+	ul.pagination li a{
+		font-weight: bold;
+    color: #fff;
+		background:linear-gradient(rgba(4, 136, 246, 0.9), rgba(4, 118, 246, 0.6));
+
+	}
+
+	ul.pagination li a:hover,
+	ul.pagination li a.current
+	{
+		color:#4F7119;
+		background:#DDEEF3
+		background:-moz-linear-gradient(top,#DDEEF3,#CAD4D7);
+		background:-webkit-gradient(linear,0 0,0 100%,from(#DDEEF3),to(#CAD4D7));
+	}
